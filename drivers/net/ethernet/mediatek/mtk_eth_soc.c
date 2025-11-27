@@ -6045,7 +6045,6 @@ static const struct mtk_soc_data mt7987_data = {
 	.hash_offset = 4,
 	.has_accounting = true,
 	.foe_entry_size = MTK_FOE_ENTRY_V3_SIZE,
-	.rss_num = 4,
 	.tx = {
 		.desc_size = sizeof(struct mtk_tx_dma_v2),
 		.dma_max_len = MTK_TX_DMA_BUF_LEN_V2,
